@@ -1,0 +1,159 @@
+# Code Challenge Readme
+
+# Challenge 1: Converting 12-hour time to 24-hour time
+
+# Problem Statement
+
+Converting a 12-hour time format to a 24-hour format may sound straightforward, but let's put your coding skills to the test! Your goal is to create a function that takes an hour (in the range of 1 to 12, inclusive), a minute (in the range of 0 to 59, inclusive), and a period ("am" or "pm") as input. The function should return a four-digit string representing the time in the 24-hour format.
+
+# Examples
+
+- python
+
+# Example 1
+
+convert_to_24_hour(8, 30, "am")  # Output: "0830"
+
+# Example 2
+
+convert_to_24_hour(8, 30, "pm")  # Output: "2030"
+
+# Notes
+
+Noon is represented as 12:00 pm.
+Midnight is represented as 12:00 am.
+The 12-hour clock doesn't have a 0 hour, and time just after midnight is denoted differently (e.g., 12:15 am corresponds to 0015 on the 24-hour clock).
+
+# Challenge 2: Two numbers are positive
+
+ - Problem Statement
+Your task is to implement a function that takes three integers (a, b, and c) as arguments and returns True if exactly two of the three integers are positive numbers (greater than zero), and False otherwise.
+
+#  Examples
+
+- python
+
+# Example 1
+
+are_two_positive(2, 4, -3)  # Output: True
+
+# Example 2
+
+are_two_positive(-4, 6, 8)  # Output: True
+
+# Example 3
+
+are_two_positive(4, -6, 9)  # Output: True
+
+# Example 4
+
+are_two_positive(-4, 6, 0)  # Output: False
+
+# Example 5
+
+are_two_positive(4, 6, 10)  # Output: False
+
+# Example 6
+
+are_two_positive(-14, -3, -4)  # Output: False
+
+# Challenge 3: Consonant value
+
+# Problem Statement
+
+Given a lowercase string containing only alphabetic characters and no spaces, your task is to create a function that returns the highest value of consonant substrings. Consonants are any letters of the alphabet except "aeiou". Assign the following values: a = 1, b = 2, c = 3, .... z = 26.
+
+# Examples
+
+- python
+
+# ExProgramming Challenges Readme
+
+# Challenge 1: Converting 12-hour time to 24-hour time
+Problem Statement
+Converting a 12-hour time format to a 24-hour format may sound straightforward, but let's put your coding skills to the test! Your goal is to create a function that takes an hour (in the range of 1 to 12, inclusive), a minute (in the range of 0 to 59, inclusive), and a period ("am" or "pm") as input. The function should return a four-digit string representing the time in the 24-hour format.
+
+# Examples
+
+- python
+
+# Example 1
+
+convert_to_24_hour(8, 30, "am")  # Output: "0830"
+
+# Example 2
+
+convert_to_24_hour(8, 30, "pm")  # Output: "2030"
+
+# Notes
+
+Noon is represented as 12:00 pm.
+Midnight is represented as 12:00 am.
+The 12-hour clock doesn't have a 0 hour, and time just after midnight is denoted differently (e.g., 12:15 am corresponds to 0015 on the 24-hour clock).
+
+# Challenge 2: Two numbers are positive
+
+# Problem Statement
+
+Your task is to implement a function that takes three integers (a, b, and c) as arguments and returns True if exactly two of the three integers are positive numbers (greater than zero), and False otherwise.
+
+# Examples
+
+ - python
+
+# Example 1
+
+are_two_positive(2, 4, -3)  # Output: True
+
+# Example 2
+
+are_two_positive(-4, 6, 8)  # Output: True
+
+# Example 3
+
+are_two_positive(4, -6, 9)  # Output: True
+
+# Example 4
+
+are_two_positive(-4, 6, 0)  # Output: False
+
+# Example 5
+
+are_two_positive(4, 6, 10)  # Output: False
+
+# Example 6
+
+are_two_positive(-14, -3, -4)  # Output: False
+
+# Challenge 3: Consonant value
+
+# Problem Statement
+
+Given a lowercase string containing only alphabetic characters and no spaces, your task is to create a function that returns the highest value of consonant substrings. Consonants are any letters of the alphabet except "aeiou". Assign the following values: a = 1, b = 2, c = 3, .... z = 26.
+
+# Examples
+
+- python
+
+# Example 1
+
+solve("zodiacs")  # Output: 26
+
+# Example 2
+
+solve("strength")  # Output: 57ample 1
+solve("zodiacs")  # Output: 26
+
+# Example 2
+
+solve("strength")  # Output: 57
+
+# License for [Project Name]
+
+© [Year] [MueniShikuku]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this documentation and associated files (the "Documentation"), to deal in the Documentation without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Documentation, and to permit persons to whom the Documentation is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Documentation.
+
+THE DOCUMENTATION IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE DOCUMENTATION OR THE USE OR OTHER DEALINGS IN THE DOCUMENTATION.
